@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Buku | RUBAKI</title>
+  <link rel="icon" href="img/logo-ikon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+
+<!-- NAVBAR: jangan diubah, sama persis di semua halaman (DESIGN.md bagian 5) -->
+<header class="navbar">
+  <div class="container navbar-isi">
+    <a class="logo" href="index.html">
+      <picture>
+        <source media="(max-width: 1024px)" srcset="img/logo-ikon.png">
+        <img src="img/logo.png" alt="RUBAKI - Ruang Baca Kita">
+      </picture>
+    </a>
+    <nav class="navbar-menu" id="menu">
+      <a href="index.html">Beranda</a>
+      <a class="aktif" aria-current="page" href="koleksi.html">Koleksi</a>
+      <a href="panduan.html">Panduan Orang Tua &amp; Guru</a>
+      <a href="kontributor.html">Kontributor</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+    <a class="tombol-cari" href="koleksi.html#cari" aria-label="Cari buku">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg>
+    </a>
+    <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- ISI HALAMAN DETAIL BUKU DI SINI -->
+  <section class="container section">
+    <h1>Detail Buku</h1>
+    <p>Halaman ini belum diisi.</p>
+  </section>
+</main>
+
+<!-- FOOTER: jangan diubah, sama persis di semua halaman (DESIGN.md bagian 14) -->
+<footer class="footer">
+  <div class="container footer-isi">
+    <div>
+      <h2>RUBAKI</h2>
+      <p>Ruang Baca Kita</p>
+    </div>
+    <p>Tempat membaca, belajar, dan berimajinasi bersama.</p>
+    <nav aria-label="Tautan footer">
+      <a href="koleksi.html">Koleksi</a> ·
+      <a href="panduan.html">Panduan</a> ·
+      <a href="kontributor.html">Kontributor</a>
+    </nav>
+  </div>
+  <p class="hak-cipta">© 2026 RUBAKI. Ruang Baca Kita.</p>
+</footer>
+
+<button class="kembali-atas" aria-label="Kembali ke atas">↑</button>
+
+<script src="js/main.js" defer></script>
+<script src="data/buku.js"></script>
+<script src="js/detail.js" defer></script>
+</body>
+</html>
